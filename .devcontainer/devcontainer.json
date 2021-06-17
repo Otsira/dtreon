@@ -2,7 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.183.0/containers/docker-existing-docker-compose
 // If you want to run as a non-root user in the container, see .devcontainer/docker-compose.yml.
 {
-	"name": "Existing Docker Compose (Extend)",
+	"name": "Dtron-Solidity",
 
 	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
 	// The .devcontainer/docker-compose.yml file contains any overrides you need/want to make.
@@ -18,9 +18,9 @@
 	"workspaceFolder": "/workspace",
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": {
-			"terminal.integrated.defaultProfile.linux": "fish"
-	},
+	// "settings": {
+	// 		"terminal.integrated.defaultProfile.linux": "fish"
+	// },
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
@@ -42,7 +42,7 @@
 	// "shutdownAction": "none",
 
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
-	"postCreateCommand": ["curl -L https://get.oh-my.fish | fish","omf install bobthefish"],
+	// "postCreateCommand": ["curl -L https://get.oh-my.fish | fish","omf install bobthefish"],
 	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node"
 }
